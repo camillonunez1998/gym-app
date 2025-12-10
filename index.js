@@ -1,2 +1,5 @@
-// Example JavaScript code
-console.log("Hello, Gym App!");
+const contentElement = document.querySelector('.content');
+
+console.log(contentElement);
+
+// able to render the workouts
