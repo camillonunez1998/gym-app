@@ -3,15 +3,35 @@
     {
       "name": "Horizontal Day",
       "data": [
-        { "name": "Chest", "image": "imageLink", "reps": 6 },
-        { "name": "Legs", "image": "imageLink", "reps": 6 },
-        { "name": "Back", "image": "imageLink", "reps": 6 }
+        {
+          "name": "Shoulder",
+          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Foutlift.com%2Fwp-content%2Fuploads%2F2023%2F12%2Fbest-dumbbell-chest-exercises-for-upper-lower-chest-2.jpg&f=1&nofb=1&ipt=4380753b7cf77e090a1979ffdf4122a6dc19be2272cdd96c09d1fb992e628b75",
+          "reps": 6
+        },
+        {
+          "name": "Legs",
+          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Foutlift.com%2Fwp-content%2Fuploads%2F2023%2F12%2Fbest-dumbbell-chest-exercises-for-upper-lower-chest-2.jpg&f=1&nofb=1&ipt=4380753b7cf77e090a1979ffdf4122a6dc19be2272cdd96c09d1fb992e628b75",
+          "reps": 6
+        },
+        {
+          "name": "Back",
+          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Foutlift.com%2Fwp-content%2Fuploads%2F2023%2F12%2Fbest-dumbbell-chest-exercises-for-upper-lower-chest-2.jpg&f=1&nofb=1&ipt=4380753b7cf77e090a1979ffdf4122a6dc19be2272cdd96c09d1fb992e628b75",
+          "reps": 6
+        },
+        {
+          "name": "Back",
+          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Foutlift.com%2Fwp-content%2Fuploads%2F2023%2F12%2Fbest-dumbbell-chest-exercises-for-upper-lower-chest-2.jpg&f=1&nofb=1&ipt=4380753b7cf77e090a1979ffdf4122a6dc19be2272cdd96c09d1fb992e628b75",
+          "reps": 6
+        }
       ]
     },
     {
       "name": "Vertical Day",
+      "data": [{ "name": "Chest", "image": "", "reps": 6 }]
+    },
+    {
+      "name": "Leg Day",
       "data": [
-        { "name": "Chest", "image": "", "reps": 6 },
         { "name": "Chest", "image": "", "reps": 6 },
         { "name": "Chest", "image": "", "reps": 6 }
       ]
