@@ -1,7 +1,18 @@
 {
-  "horizontal": [
-    { "name": "Chest", "image": "", "reps": 6 },
-    { "name": "Chest", "image": "", "reps": 6 },
-    { "name": "Chest", "image": "", "reps": 6 }
+  "workoutData": [
+    {
+      "Horizontal": [
+        { "name": "Chest", "image": "", "reps": 6 },
+        { "name": "Chest", "image": "", "reps": 6 },
+        { "name": "Chest", "image": "", "reps": 6 }
+      ]
+    },
+    {
+      "Vertical": [
+        { "name": "Chest", "image": "", "reps": 6 },
+        { "name": "Chest", "image": "", "reps": 6 },
+        { "name": "Chest", "image": "", "reps": 6 }
+      ]
+    }
   ]
 }
