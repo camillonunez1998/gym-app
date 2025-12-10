@@ -1,14 +1,16 @@
 {
   "workoutData": [
     {
-      "Horizontal": [
-        { "name": "Chest", "image": "", "reps": 6 },
-        { "name": "Chest", "image": "", "reps": 6 },
-        { "name": "Chest", "image": "", "reps": 6 }
+      "name": "Horizontal Day",
+      "data": [
+        { "name": "Chest", "image": "imageLink", "reps": 6 },
+        { "name": "Legs", "image": "imageLink", "reps": 6 },
+        { "name": "Back", "image": "imageLink", "reps": 6 }
       ]
     },
     {
-      "Vertical": [
+      "name": "Vertical Day",
+      "data": [
         { "name": "Chest", "image": "", "reps": 6 },
         { "name": "Chest", "image": "", "reps": 6 },
         { "name": "Chest", "image": "", "reps": 6 }

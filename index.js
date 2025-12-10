@@ -2,11 +2,12 @@
 const contentElement = document.querySelector('.content');
 const headerTitle = document.querySelector('.header-title');
 
-// able to render the workouts
+// able to render the card workouts
 const renderWorkoutCard = (name, image, reps) => {
   console.log(name, image, reps);
 };
 
+// Fetching the workouts data
 fetch('../workouts.json')
   .then((response) => {
     if (!response.ok) {
@@ -16,24 +17,16 @@ fetch('../workouts.json')
     return response.json();
   })
   .then((data) => {
-    //use the data here
     data.workoutData.forEach((item) => {
       // Getting Object Title
-      let keys = Object.keys(item);
-      let currentDay = headerTitle.textContent.replace('Day', '');
+      let currentDay = headerTitle.textContent;
 
-      console.log(item);
-
-      //   let currentWorkout = item.find((res) => res === currentDay);
-
-      //   console.log(currentWorkout);
-
-      //   if (keys[0] === currentDay) {
-      //     console.log(item);
-      //   }
+      // Finding the data we need that matches our current day
+      if (item.name === currentDay) {
+        // Render each workout into a card element
+        item.data.forEach((workout) =>
+          renderWorkoutCard(workout.name, workout.image, workout.reps)
+        );
+      }
     });
-
-    //Figure out which page we are on with HeaderTitle
-    //Use the data in json to render the workouts with the card element
-    // renderWorkoutCard();
   });
