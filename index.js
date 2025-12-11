@@ -3,8 +3,8 @@ const contentElement = document.querySelector('.content');
 const headerTitle = document.querySelector('.header-title');
 
 // able to render the card workouts
-const renderWorkoutCard = (name, image, reps) => {
-  console.log(name, image, reps);
+const renderWorkoutCard = (name, image, reps, description) => {
+  console.log(name, image, reps, description);
 
   // Creating card element
   let cardElement = document.createElement('div');
@@ -19,13 +19,23 @@ const renderWorkoutCard = (name, image, reps) => {
   workoutTitle.className = 'title';
   workoutTitle.textContent = name;
 
-  // Create a description element {style it into a h4} (dont forget to add the data into the json)
+  // Create a description element {style it into a h4} (Make it show info when you hover over the card)
+  let descriptionElement = document.createElement('h4'); // Create the h4
+  descriptionElement.className = 'description';         // Asign a CSS class
+  descriptionElement.textContent = description;           // Asign the description text
+
 
   // Create a reps section in the bottom {style into a p}
+  let repsElement = document.createElement('p');
+  repsElement.className = 'reps';
+  // Assign the text for reps, using a prefix for clarity
+  repsElement.textContent = `Reps: ${reps}`;
 
   // Add the elements into the card
   cardElement.append(imageElement);
   cardElement.append(workoutTitle);
+  cardElement.append(descriptionElement);
+  cardElement.append(repsElement);
 
   // Add the card elements into the content section
   contentElement.append(cardElement);
@@ -49,7 +59,7 @@ fetch('../workouts.json')
       if (item.name === currentDay) {
         // Render each workout into a card element
         item.data.forEach((workout) =>
-          renderWorkoutCard(workout.name, workout.image, workout.reps)
+          renderWorkoutCard(workout.name, workout.image, workout.reps, workout.description)
         );
       }
     });

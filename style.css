@@ -42,17 +42,43 @@ ul li a {
   display: flex;
   justify-content: center;
   gap: 8px;
+  flex-wrap: wrap;
 }
 
 .card {
+  /* This ensures that the border and padding do not increase the total width of 200px */
+  box-sizing: border-box;
   height: 260px;
   width: 200px;
   text-align: center;
   border: 1px 1px 1px solid black;
   border-style: solid;
+  /* Set position so that z-index works */
+  position: relative;
 }
 
 .card img {
-  height: 200px;
-  width: 200px;
+  width: 100%; 
+  height: auto; 
+  max-width: 100%; 
+}
+
+/* HIDE THE DESCRIPTION BY DEFAULT */
+.card .description {
+    display: none; /* Hide the description element */
+    padding: 5px;
+    font-size: 0.85em;
+    color: #444;
+    background-color: #f0f0f0;
+}
+
+/* SHOW THE DESCRIPTION WHEN THE MOUSE IS OVER THE ENTIRE CARD */
+.card:hover .description {
+    display: block; /* Show the element when the card is hovered */
+}
+
+/* Step 2: Apply a high z-index when the mouse is over the card */
+.card:hover {
+    /* A high value ensures this card will be above others (whose z-index is 0 or automatic) */
+    z-index: 10; 
 }

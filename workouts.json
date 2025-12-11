@@ -4,24 +4,44 @@
       "name": "Horizontal Day",
       "data": [
         {
-          "name": "Shoulder",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Foutlift.com%2Fwp-content%2Fuploads%2F2023%2F12%2Fbest-dumbbell-chest-exercises-for-upper-lower-chest-2.jpg&f=1&nofb=1&ipt=4380753b7cf77e090a1979ffdf4122a6dc19be2272cdd96c09d1fb992e628b75",
-          "reps": 6
+          "name": "Flat dumbbell press",
+          "image": "https://static.strengthlevel.com/images/exercises/dumbbell-bench-press/dumbbell-bench-press-800.jpg",
+          "reps": 10,
+          "series": 4,
+          "weight": "10 kg",
+          "description": "Lie back on a flat bench holding a dumbbell in each hand above you at arm's length. Your feet should be flat on the floor. This will be your starting position. Lower the dumbbells to the sides of your chest, keeping your elbows at a 45-degree angle to your torso. Pause, then press the weights back up to the starting position."
         },
         {
-          "name": "Legs",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Foutlift.com%2Fwp-content%2Fuploads%2F2023%2F12%2Fbest-dumbbell-chest-exercises-for-upper-lower-chest-2.jpg&f=1&nofb=1&ipt=4380753b7cf77e090a1979ffdf4122a6dc19be2272cdd96c09d1fb992e628b75",
-          "reps": 6
+          "name": "Incline dumbbell row",
+          "image": "https://cdn.muscleandstrength.com/sites/default/files/chest-supported-dumbbell-row-pronated.jpg",
+          "reps": 6,
+          "series": 4,
+          "weight": "10 kg",
+          "description": "Lie face down on an incline bench set to about 30-45 degrees, holding a dumbbell in each hand with your arms fully extended toward the floor. Pull the dumbbells up toward your torso, squeezing your shoulder blades together at the top of the movement. Lower the weights back to the starting position."
         },
         {
-          "name": "Back",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Foutlift.com%2Fwp-content%2Fuploads%2F2023%2F12%2Fbest-dumbbell-chest-exercises-for-upper-lower-chest-2.jpg&f=1&nofb=1&ipt=4380753b7cf77e090a1979ffdf4122a6dc19be2272cdd96c09d1fb992e628b75",
-          "reps": 6
+          "name": "Pec Deck Chest Fly",
+          "image": "https://liftmanual.com/wp-content/uploads/2023/04/lever-pec-deck-fly.jpg",
+          "reps": 10,
+          "series": 4,
+          "weight": "60 kg",
+          "description": "Sit on the pec deck machine with your back firmly against the pad. Place your forearms on the padded levers, keeping your elbows slightly bent. Bring the levers together in front of your chest by squeezing your pectoral muscles. Pause briefly, then slowly return to the starting position."
         },
         {
-          "name": "Back",
-          "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Foutlift.com%2Fwp-content%2Fuploads%2F2023%2F12%2Fbest-dumbbell-chest-exercises-for-upper-lower-chest-2.jpg&f=1&nofb=1&ipt=4380753b7cf77e090a1979ffdf4122a6dc19be2272cdd96c09d1fb992e628b75",
-          "reps": 6
+          "name": "Reverse Pec Deck",
+          "image": "https://blog.myarsenalstrength.com/hs-fs/hubfs/reverse-pec-deck-machine-benefits%20(1).png?width=500&height=281&name=reverse-pec-deck-machine-benefits%20(1).png",
+          "reps": 10,
+          "series": 4,
+          "weight": "60 kg",
+          "description": "Sit on the pec deck machine facing the pad, with your chest against the backrest. Grasp the handles with your arms extended in front of you. Pull the handles apart by squeezing your shoulder blades together, focusing on engaging your rear deltoids. Pause briefly, then slowly return to the starting position."
+        },
+        {
+          "name": "Dumbbell kills",
+          "image": "https://www.fitkituk.com/blog/wp-content/uploads/2025/08/Bicep-curls-using-dumbbells-700x700.png",
+          "reps": 10,
+          "series": 4,
+          "weight": "8 kg",
+          "description": "Stand with a dumbbell in each hand at arm's length. Keep your elbows close to your torso and rotate the palms of your hands until they are facing forward. Now, keeping the upper arms stationary, exhale and curl the weights while contracting your biceps."
         }
       ]
     },
