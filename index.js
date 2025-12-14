@@ -3,8 +3,8 @@ const contentElement = document.querySelector('.content');
 const headerTitle = document.querySelector('.header-title');
 
 // able to render the card workouts
-const renderWorkoutCard = (name, image, reps, description) => {
-  console.log(name, image, reps, description);
+const renderWorkoutCard = (name, image, reps, description, weight, workedmuscles) => {
+  console.log(name, image, reps, description, weight, workedmuscles);
 
   // Creating card element
   let cardElement = document.createElement('div');
@@ -28,14 +28,26 @@ const renderWorkoutCard = (name, image, reps, description) => {
   // Create a reps section in the bottom {style into a p}
   let repsElement = document.createElement('p');
   repsElement.className = 'reps';
-  // Assign the text for reps, using a prefix for clarity
-  repsElement.textContent = `Reps: ${reps}`;
+  repsElement.textContent = `Reps: ${reps}`;// Assign the text for reps, using a prefix for clarity
+
+  // Create a weight element
+  let weightElement = document.createElement('p');
+  weightElement.className = 'weight';
+  weightElement.textContent = `Weight: ${weight}`;// Assign the text for weight, using a prefix for clarity
+
+// Create a muscleworked element
+  let workedmusclesElement = document.createElement('p');
+  workedmusclesElement.className = 'workedmuscles';
+  workedmusclesElement.textContent = `Muscle worked: ${workedmuscles}`;// Assign the text for weight, using a prefix for clarity
+
 
   // Add the elements into the card
   cardElement.append(imageElement);
   cardElement.append(workoutTitle);
   cardElement.append(descriptionElement);
   cardElement.append(repsElement);
+  cardElement.append(weightElement);
+  cardElement.append(workedmusclesElement);
 
   // Add the card elements into the content section
   contentElement.append(cardElement);
@@ -59,7 +71,7 @@ fetch('../workouts.json')
       if (item.name === currentDay) {
         // Render each workout into a card element
         item.data.forEach((workout) =>
-          renderWorkoutCard(workout.name, workout.image, workout.reps, workout.description)
+          renderWorkoutCard(workout.name, workout.image, workout.reps, workout.description, workout.weight, workout.workedmuscles)
         );
       }
     });

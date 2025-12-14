@@ -47,7 +47,11 @@
     },
     {
       "name": "Vertical Day",
-      "data": [{ "name": "Chest", "image": "", "reps": 6 }]
+      "data": [{ "name": "Pull-ups", "category":"compound", "image": "https://cdn.shopify.com/s/files/1/0705/5432/1194/files/mikolo-pull-ups-blog-2.png?v=1693468017", "reps": 10, "series":4, "weight":"60 lbs", "workedmuscles": "Lats, biceps" },
+      {"name": "Seated Smith Machine OHP - flat bench", "category":"compound", "image": "https://i.ytimg.com/vi/OLqZDUUD2b0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB7en5oiLyR758il0Krz0_nXI4bBw", "reps": 10, "series":4, "weight":"Just the bar","workedmuscles": "Anterior Deltoid, Triceps Brachii, Lateral Deltoid"},
+      {"name": "Cable straight arm pull-down", "category":"Isolated", "image": "https://i.ytimg.com/vi/MKvaz4VzA6g/maxresdefault.jpg", "reps": 12, "series":4, "weight":"27.5 lbs","workedmuscles": "Lats"},
+      {"name": "Dumbell lateral raises", "category":"Isolated", "image": "https://hips.hearstapps.com/hmg-prod/images/fai-6871-jpg-1646751792.jpg?crop=1xw:0.84375xh;0,0.149xh", "reps": 12, "series":4, "weight":"5 kgs","workedmuscles": "Lateral deltoid"},
+      {"name": "Cable overhead tricep extension (rope)", "category":"Isolated", "image": "https://liftmanual.com/wp-content/uploads/2023/04/cable-rope-high-pulley-overhead-tricep-extension.jpg", "reps": 12, "series":4, "weight":"17.5 lbs","workedmuscles": "Triceps Brachii"} ]
     },
     {
       "name": "Leg Day",
