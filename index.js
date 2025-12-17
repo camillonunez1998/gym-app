@@ -3,8 +3,8 @@ const contentElement = document.querySelector('.content');
 const headerTitle = document.querySelector('.header-title');
 
 // able to render the card workouts
-const renderWorkoutCard = (name, image, reps, description, weight, workedmuscles) => {
-  console.log(name, image, reps, description, weight, workedmuscles);
+const renderWorkoutCard = (name, image, reps, description, weight, workedmuscles, category) => {
+  console.log(name, image, reps, description, weight, workedmuscles, category);
 
   // Creating card element
   let cardElement = document.createElement('div');
@@ -40,6 +40,10 @@ const renderWorkoutCard = (name, image, reps, description, weight, workedmuscles
   workedmusclesElement.className = 'workedmuscles';
   workedmusclesElement.textContent = `Muscle worked: ${workedmuscles}`;// Assign the text for weight, using a prefix for clarity
 
+// Create a category element
+  let categoryElement = document.createElement('p');
+  categoryElement.className = 'category';
+  categoryElement.textContent = `Category: ${category}`;
 
   // Add the elements into the card
   cardElement.append(imageElement);
@@ -48,6 +52,7 @@ const renderWorkoutCard = (name, image, reps, description, weight, workedmuscles
   cardElement.append(repsElement);
   cardElement.append(weightElement);
   cardElement.append(workedmusclesElement);
+  cardElement.append(categoryElement);
 
   // Add the card elements into the content section
   contentElement.append(cardElement);
@@ -71,7 +76,7 @@ fetch('../workouts.json')
       if (item.name === currentDay) {
         // Render each workout into a card element
         item.data.forEach((workout) =>
-          renderWorkoutCard(workout.name, workout.image, workout.reps, workout.description, workout.weight, workout.workedmuscles)
+          renderWorkoutCard(workout.name, workout.image, workout.reps, workout.description, workout.weight, workout.workedmuscles, workout.category)
         );
       }
     });

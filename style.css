@@ -43,16 +43,27 @@ ul li a {
   justify-content: center;
   gap: 8px;
   flex-wrap: wrap;
+  /* 'align-items: stretch' makes all cards in the same row share the height
+     of the tallest card, ensuring visual uniformity. */
+  align-items: stretch; 
 }
 
 .card {
   /* This ensures that the border and padding do not increase the total width of 200px */
   box-sizing: border-box;
-  height: 260px;
+  
+  /* The fixed 'height' was causing content overflow and inconsistency.
+     It has been removed or replaced with 'min-height' so the card can grow. */
+  /* height: 260px; <--- REMOVED/FIXED */
+  min-height: 260px; /* OPTIONAL: Sets a minimum base height */
+
   width: 200px;
   text-align: center;
-  border: 1px 1px 1px solid black;
-  border-style: solid;
+  
+  /* Simplified and corrected border declaration */
+  border: 1px solid black; 
+  /* border-style: solid; no longer needed if using the shorthand above */
+  
   /* Set position so that z-index works */
   position: relative;
 }
