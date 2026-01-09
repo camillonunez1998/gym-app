@@ -8,7 +8,7 @@
           "image": "/images/horizontal/flat-dumbbell.png",
           "reps": 10,
           "series": 4,
-          "weight": "12 kg",
+          "weight": "12.5 kg",
           "workedmuscles": "Lats, rhomboids, trapezius,  rear shoulders",
           "category": "Compound"
         },
@@ -17,7 +17,7 @@
           "image": "/images/horizontal/incline-dumbbell.png",
           "reps": 10,
           "series": 4,
-          "weight": "12 kg",
+          "weight": "12.5 kg",
           "workedmuscles": "Pectoralis major, front shoulder, triceps brachii",
           "category": "Compound"
         },
@@ -27,7 +27,7 @@
           "reps": 12,
           "series": 4,
           "weight": "32 kg",
-          "workedmuscles":"Pectoralis major",
+          "workedmuscles": "Pectoralis major",
           "category": "Isolation"
         },
         {
@@ -53,51 +53,51 @@
     {
       "name": "Vertical Day",
       "data": [
-      { 
-        "name": "Pull-ups",
-        "category":"Compound",
-        "image": "/images/pull-ups.png",
-        "reps": 10,
-        "series":4,
-        "weight":"60 lbs",
-        "workedmuscles": "Lats, biceps" 
-      },
-      {
-        "name": "Seated Smith Machine OHP - flat bench",
-        "category":"Compound",
-        "image": "https://i.ytimg.com/vi/OLqZDUUD2b0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB7en5oiLyR758il0Krz0_nXI4bBw",
-        "reps": "8-8-10-10",
-        "series":4,
-        "weight":"Just the bar",
-        "workedmuscles": "Anterior Deltoid, Triceps Brachii, Lateral Deltoid"
-      },
-      {
-        "name": "Cable straight arm pull-down",
-        "category":"Isolation",
-        "image": "https://i.ytimg.com/vi/MKvaz4VzA6g/maxresdefault.jpg",
-        "reps": 12,
-        "series":4,
-        "weight":"27.5 lbs",
-        "workedmuscles": "Lats"
-      },
-      {
-        "name": "Dumbell lateral raises",
-        "category":"Isolation",
-        "image": "https://hips.hearstapps.com/hmg-prod/images/fai-6871-jpg-1646751792.jpg?crop=1xw:0.84375xh;0,0.149xh",
-        "reps": 10,
-        "series":4,
-        "weight":"5 kgs",
-        "workedmuscles": "Lateral deltoid"
-      },
-      {
-        "name": "Cable overhead tricep extension (rope)",
-        "category":"Isolation",
-        "image": "https://liftmanual.com/wp-content/uploads/2023/04/cable-rope-high-pulley-overhead-tricep-extension.jpg",
-        "reps": 12,
-        "series":4,
-        "weight":"17.5 lbs",
-        "workedmuscles": "Triceps Brachii"
-        } 
+        {
+          "name": "Pull-ups",
+          "category": "Compound",
+          "image": "/images/pull-ups.png",
+          "reps": 10,
+          "series": 4,
+          "weight": "60 lbs --",
+          "workedmuscles": "Lats, biceps"
+        },
+        {
+          "name": "Seated Smith Machine OHP - flat bench",
+          "category": "Compound",
+          "image": "https://i.ytimg.com/vi/OLqZDUUD2b0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB7en5oiLyR758il0Krz0_nXI4bBw",
+          "reps": "8-8-10-10",
+          "series": 4,
+          "weight": "Just the bar",
+          "workedmuscles": "Anterior Deltoid, Triceps Brachii, Lateral Deltoid"
+        },
+        {
+          "name": "Cable straight arm pull-down",
+          "category": "Isolation",
+          "image": "https://i.ytimg.com/vi/MKvaz4VzA6g/maxresdefault.jpg",
+          "reps": 12,
+          "series": 4,
+          "weight": "14.7 kgs - Alt: Max",
+          "workedmuscles": "Lats"
+        },
+        {
+          "name": "Dumbell lateral raises",
+          "category": "Isolation",
+          "image": "https://hips.hearstapps.com/hmg-prod/images/fai-6871-jpg-1646751792.jpg?crop=1xw:0.84375xh;0,0.149xh",
+          "reps": 10,
+          "series": 4,
+          "weight": "5 kgs",
+          "workedmuscles": "Lateral deltoid"
+        },
+        {
+          "name": "Cable overhead tricep extension (rope)",
+          "category": "Isolation",
+          "image": "/images/vertical/cable-overhead.png",
+          "reps": 12,
+          "series": 4,
+          "weight": "10.2 kgs - Alt: 6",
+          "workedmuscles": "Triceps Brachii"
+        }
       ]
     },
     {
@@ -105,56 +105,56 @@
       "data": [
         {
           "name": "Leg press",
-          "category":"Compound",
+          "category": "Compound",
           "image": "/images/leg-press.png",
           "reps": 10,
-          "series":4,
-          "weight":"86 kg",
+          "series": 4,
+          "weight": "86 kg",
           "workedmuscles": "Quadriceps, gluteus maximus"
         },
         {
           "name": "Leg curl",
-          "category":"Isolation",
+          "category": "Isolation",
           "image": "/images/leg-curl.png",
           "reps": 12,
-          "series":4,
-          "weight":"27 kg",
+          "series": 4,
+          "weight": "27 kg",
           "workedmuscles": "Hamstrings"
         },
         {
           "name": "leg extention",
-          "category":"Isolation",
+          "category": "Isolation",
           "image": "/images/leg-extention.png",
           "reps": 12,
-          "series":4,
-          "weight":"18 kg",
+          "series": 4,
+          "weight": "27 kg",
           "workedmuscles": "quadriceps"
         },
         {
           "name": "Standing calf raise",
-          "category":"Isolation",
+          "category": "Isolation",
           "image": "/images/calf-raise.png",
           "reps": 12,
-          "series":4,
-          "weight":"15 kgs",
+          "series": 4,
+          "weight": "15 kgs",
           "workedmuscles": "Gastrocnemius, soleus, achilles tendon (calf muscles)"
         },
         {
           "name": "Hyperextentions",
-          "category":"Compound",
+          "category": "Compound",
           "image": "/images/hyperextentions.png",
           "reps": 10,
-          "series":4,
-          "weight":"Just your own weight",
+          "series": 4,
+          "weight": "Just your own weight",
           "workedmuscles": "Gluteus maximus, hamstrings, erector spinae"
         },
         {
           "name": "Glute",
-          "category":"Compound",
+          "category": "Compound",
           "image": "/images/leg/glute.png",
           "reps": 10,
-          "series":4,
-          "weight":"35 kg",
+          "series": 4,
+          "weight": "35 kg",
           "workedmuscles": "Gluteus maximus"
         }
       ]
