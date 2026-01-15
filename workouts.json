@@ -59,7 +59,7 @@
           "image": "/images/pull-ups.png",
           "reps": 10,
           "series": 4,
-          "weight": "60 lbs --",
+          "weight": "13.4 kg",
           "workedmuscles": "Lats, biceps"
         },
         {
@@ -118,7 +118,7 @@
           "image": "/images/leg-curl.png",
           "reps": 12,
           "series": 4,
-          "weight": "27 kg",
+          "weight": "36 - 41 kg",
           "workedmuscles": "Hamstrings"
         },
         {
@@ -127,7 +127,7 @@
           "image": "/images/leg-extention.png",
           "reps": 12,
           "series": 4,
-          "weight": "27 kg",
+          "weight": "36 - 41 kg",
           "workedmuscles": "quadriceps"
         },
         {
@@ -136,7 +136,7 @@
           "image": "/images/calf-raise.png",
           "reps": 12,
           "series": 4,
-          "weight": "15 kgs",
+          "weight": "30 kgs",
           "workedmuscles": "Gastrocnemius, soleus, achilles tendon (calf muscles)"
         },
         {
@@ -154,7 +154,7 @@
           "image": "/images/leg/glute.png",
           "reps": 10,
           "series": 4,
-          "weight": "35 kg",
+          "weight": "41 kg",
           "workedmuscles": "Gluteus maximus"
         }
       ]
