@@ -8,7 +8,7 @@
           "image": "/images/horizontal/flat-dumbbell.png",
           "reps": 10,
           "series": 4,
-          "weight": "12.5 kg",
+          "weight": "15 - 12.5 kg",
           "workedmuscles": "Lats, rhomboids, trapezius,  rear shoulders",
           "category": "Compound"
         },
@@ -17,7 +17,7 @@
           "image": "/images/horizontal/incline-dumbbell.png",
           "reps": 10,
           "series": 4,
-          "weight": "12.5 kg",
+          "weight": "17.5 - 15 kg",
           "workedmuscles": "Pectoralis major, front shoulder, triceps brachii",
           "category": "Compound"
         },
@@ -26,7 +26,7 @@
           "image": "/images/horizontal/peck-deck.png",
           "reps": 12,
           "series": 4,
-          "weight": "32 kg",
+          "weight": "50 - 45 kg",
           "workedmuscles": "Pectoralis major",
           "category": "Isolation"
         },
@@ -35,7 +35,7 @@
           "image": "/images/horizontal/reverse-peck-deck.png",
           "reps": 12,
           "series": 4,
-          "weight": "32 kg",
+          "weight": "45 - 41 kg",
           "workedmuscles": "Rear shoulders",
           "category": "Isolation"
         },
@@ -44,7 +44,7 @@
           "image": "/images/horizontal/dumbbell-curls.png",
           "reps": 12,
           "series": 4,
-          "weight": "8 kg",
+          "weight": "12.5 kg",
           "workedmuscles": "Biceps",
           "category": "Isolation"
         }
@@ -59,7 +59,7 @@
           "image": "/images/pull-ups.png",
           "reps": 10,
           "series": 4,
-          "weight": "13.4 kg",
+          "weight": "6.8 kg",
           "workedmuscles": "Lats, biceps"
         },
         {
@@ -77,7 +77,7 @@
           "image": "https://i.ytimg.com/vi/MKvaz4VzA6g/maxresdefault.jpg",
           "reps": 12,
           "series": 4,
-          "weight": "14.7 kgs - Alt: Max",
+          "weight": "21.6 - 19.3 kgs - Alt: Max",
           "workedmuscles": "Lats"
         },
         {
@@ -86,7 +86,7 @@
           "image": "https://hips.hearstapps.com/hmg-prod/images/fai-6871-jpg-1646751792.jpg?crop=1xw:0.84375xh;0,0.149xh",
           "reps": 10,
           "series": 4,
-          "weight": "5 kgs",
+          "weight": "8 kgs",
           "workedmuscles": "Lateral deltoid"
         },
         {
@@ -95,7 +95,7 @@
           "image": "/images/vertical/cable-overhead.png",
           "reps": 12,
           "series": 4,
-          "weight": "10.2 kgs - Alt: 6",
+          "weight": "12.5 kgs - Alt: 6",
           "workedmuscles": "Triceps Brachii"
         }
       ]
@@ -118,7 +118,7 @@
           "image": "/images/leg-curl.png",
           "reps": 12,
           "series": 4,
-          "weight": "36 - 41 kg",
+          "weight": "41 kg",
           "workedmuscles": "Hamstrings"
         },
         {
@@ -127,7 +127,7 @@
           "image": "/images/leg-extention.png",
           "reps": 12,
           "series": 4,
-          "weight": "36 - 41 kg",
+          "weight": "41 kg",
           "workedmuscles": "quadriceps"
         },
         {
