@@ -30,8 +30,12 @@ ul li a {
 }
 
 .header-image {
-  width: 100%;
-  height: 300px;
+  width: auto;      /* No la obliga a ocupar todo el ancho */
+  max-width: 100%;  /* Pero evita que se salga de la pantalla si es muy grande */
+  height: 300px;    /* Tú decides la altura, y ella se ajustará solita */
+  display: block;   /* Para que el centrado funcione bien */
+  margin: 0 auto;   /* Centra la imagen horizontalmente */
+  object-fit: contain; /* Asegura que la imagen se vea completa sin cortes */
 }
 
 .header-title {
@@ -87,6 +91,7 @@ ul li a {
 .card:hover .description {
     display: block; /* Show the element when the card is hovered */
 }
+
 
 /* Step 2: Apply a high z-index when the mouse is over the card */
 .card:hover {
