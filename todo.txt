@@ -1,0 +1,1 @@
+- Poner un calendario que diga los ejercicios de la semana actual y la que viene; Hacer que la info en las cards quede alineada a la izquierda y con viñetas; arreglar todos los pesos en el mismo eco poniendo de mayor a mejor peso; subirle una a 14.7 a cable pull ( el que no es overhead); ponerle 41 kg a hamstrings
